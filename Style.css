@@ -581,4 +581,59 @@
             color: white;
             box-shadow: 0 10px 20px rgba(58, 12, 163, 0.2);
         }
-       
+
+        .footer {
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .hover-teal {
+            transition: all 0.2s ease;
+        }
+
+        .hover-teal:hover {
+            color: var(--primary-color) !important;
+            transform: translateX(3px);
+        }
+
+        .border-teal {
+            border-color: var(--secondary-color) !important;
+        }
+
+        .form-control {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-dark);
+        }
+
+        .newsletter-form>.input-group {
+            border: 1px solid var(--primary-color);
+        }
+
+        .newsletter-form .form-control:focus {
+            box-shadow: 0 0 0 0.25rem var();
+            border-color: #20c997;
+        }
+
+        .footer {
+            background-color: var(--card-bg);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .footer-brand {
+            padding: 10px 15px;
+        }
+
+        .social-links a {
+            transition: all 0.2s ease;
+            padding: 0;
+            background: none !important;
+        }
+
+        .social-links a:hover {
+            transform: translateY(-2px);
+            color: var(--primary-color) !important;
+        }
+
+        .social-links .bi {
+            vertical-align: middle;
+        }
